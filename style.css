@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    position: fixed;
+    /*background-color: black;*/
+    padding-bottom: 15px;
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    
+    
+}
+
+header .logo{
+    /*margin-left: 105px;
+    margin-top: 20px;*/
+}
+
+header .logo{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-top: 10px
+}
+
+}
+.nav{
+    position: absolute;
+    right: 0;
+    top: -13px;
+    margin-right: 200px;
+
+}
+
+header .nav ul{
+    list-style: none;
+    margin-left: 220px;
+}
+
+header .nav ul li{
+    float: left;
+    padding: 25px;
+   /* align-items: center;
+    justify-content: center;*/
+    
+    
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(10, 2, 20);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    
+}
+
+header .nav ul li a:hover{
+    color: rgb(15, 11, 221);
+}
+
+section{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+ .half1, .half2{
+    width: 50%;
+    
+}
+
+.half2{
+    max-width: 100%;
+    height: 650px;
+    display: flex;
+    margin-right: 50px;
+    position: relative;
+
+}
+
+.half1 p{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.half1{
+    margin-left: 200px;
+}
+.half1 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: sandybrown;
+    margin: 0;
+}
+.half1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 115, 199);
+    margin: 0;
+}
+
+.btn{
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #7373c7;
+}
+
+.half1 .clickhere{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
